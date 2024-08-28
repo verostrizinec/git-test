@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../assets/fonts/static/Inter-Regular.ttf);
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+    font-family: 'Inter';
+    color: hsl(0, 0%, 100%);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 5%;
+    width: 300px;
+    height: 500px;
+}
+
+img {
+    position: relative;
+    border-radius: 50%;
+    width: 80px;
+    top: -30%;
+}
+
+div #info-jessica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    position: relative;
+    top: -20%;
+    font-size: 20px;
+}
+
+.adress {
+    color: hsl(75, 94%, 57%);
+    position: relative;
+    top: -20%;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+#about {
+    font-size: 10px;
+    position: relative;
+    top: -5%;
+}
+
+#social ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* Ajusta este valor según el espacio que quieras entre los <li> */
+    padding: 0;
+    margin-top: 1rem;
+}
+
+#social ul li {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: 400;
+    width: 15rem;
+    height: 2.5rem;
+    display: flex; /* Para centrar el texto dentro de cada <li> */
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    width: 15rem;
+    height: 2.5rem;
+}
+
+li:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
+
+
+
