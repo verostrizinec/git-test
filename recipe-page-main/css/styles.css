@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 46rem;
+    margin: 7.7rem 22rem;
+    border-radius: 1.1rem;
+    padding: 2.5rem;
+
+}
+
+img { 
+    width: 100%;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+.title {
+    font-family: "Young Serif", sans-serif;
+    padding-top: 3%;
+}
+
+.description {
+    font-family: "Outfit", sans-serif;
+    padding-top: 3%;
+    font-size: 16px;
+}
+
+#preparation {
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 5%;
+    padding: 3%;
+    font-family: "Young Serif", sans-serif;
+    border-radius: 3%;
+}
+
+
+.title-preparation {
+    color: hsl(14, 45%, 36%);
+}
+#preparation ul li {
+    list-style: circle;
+    font-family: "Outfit", sans-serif;
+    padding: 0.5%;
+    margin: 3%;
+}
+
+.title-ingredients {
+    font-family: "Young Serif", sans-serif;
+    margin-top: 3%;
+    color: hsl(14, 45%, 36%);
+}
+
+#ingredients ul li {
+    list-style: circle;
+    font-family: "Outfit", sans-serif;
+    padding: 1.5%;
+    margin-left: 3%;
+}
+
+hr {
+    margin: 5% 0 5% 0;
+}
+
+.title-instructions {
+    font-family: "Young Serif", sans-serif;
+    margin-top: 3%;
+    color: hsl(14, 45%, 36%);
+}
+
+ol li {
+    font-family: "Outfit", sans-serif;
+    margin: 1.5% 0 1.5% 2.5%;
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+#instructions ol li {
+    padding-left: 2%; 
+}
+
+.title-nutrition {
+    font-family: "Young Serif", sans-serif;
+    margin-top: 3%;
+    color: hsl(14, 45%, 36%);
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.data {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+.info {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+}
+
+
+table {
+    table-layout: fixed;
+    width: 37rem;
+    border-collapse: collapse;
+}
+
+table td {
+    text-indent: 2.3rem;
+    border-bottom: 1px solid lightgray;
+    padding: 0.8rem 0 1rem 0;
+}
+
+    @media only screen and (max-width: 600px) {
+        .container {
+            width: 90%;
+            margin: 1rem auto;
+            padding: 1rem;
+        }
+    
+        img {
+            width: 100%;
+            border-radius: 0.3rem;
+        }
+    
+        .title, .description, .title-preparation, .title-ingredients, .title-instructions, .title-nutrition {
+            padding-top: 1rem;
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        #nutrition {
+            margin-left: 3%;
+        }
+    
+        .description, p {
+            font-size: 14px;
+        }
+    
+        #preparation, #ingredients, #instructions {
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    
+        #preparation ul li, #ingredients ul li {
+            padding: 0.5rem;
+            font-size: 14px;
+        }
+    
+        ol li {
+            font-size: 14px;
+            margin-left: 1rem;
+        }
+    
+        table {
+            width: 100%;
+            font-size: 14px;
+            margin-left: 3%;
+        }
+    
+        table td {
+            text-indent: 0;
+            padding: 0.5rem 0;
+        }
+    }
+    
+
+
+
+
+
+
